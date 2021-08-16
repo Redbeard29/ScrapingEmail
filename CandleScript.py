@@ -27,7 +27,7 @@ else:
 email_message = "The {} {} by {} {} for {} here: \n{}".format(candle, wicks, manufacturer, in_stock, price, URL)
 
 sender_email = "candlesender@gmail.com"
-receiver_email = "markilabrown@gmail.com"
+receiver_email = "user@gmail.com"
 subject = "Candle link test"
 sender_password = input(f'Please enter the password for {sender_email}:\n') 
 
@@ -36,7 +36,7 @@ yag = yagmail.SMTP(user=sender_email, password=sender_password)
 contents = [
     "Hello,",
     email_message,
-    "Love,",
+    "Regards,",
     "The candle sender"
 ]
 
